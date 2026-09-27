@@ -1,0 +1,46 @@
+# Local deployment inputs and generated secrets (including custom workdirs)
+/users.csv
+wg-output*/
+**/state.json
+**/preflight-snapshot.json
+**/plan.json
+**/manifest.csv
+**/rollback.rsc
+**/clients/
+**/.lock
+*.conf
+*.key
+*.pem
+*.crt
+*.p12
+*.pfx
+*.backup
+*.rsc
+.env
+.env.*
+!.env.example
+*.log
+
+# Archives may contain deployment state and private keys
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+
+# Python, editors, and macOS
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+.DS_Store
+.idea/
+.vscode/
+
+# Local analysis artifacts
+graphify-out/
